@@ -1,0 +1,2 @@
+$wpr_remove = Woocommerce_Waitlist::get_instance();
+remove_action( 'save_post', array( $wpr_remove, 'wew_on_product_save' ), 1000 );
